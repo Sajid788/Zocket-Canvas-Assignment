@@ -109,7 +109,24 @@ const Canvas = ({ ...props }) => {
     };
   }, [props.content, props.ctaText, props.color, props.img]);
 
-
+  const drawTextWithWrap = (ctx, text, x, y, maxWidth, lineHeight) => {
+    const texts = text.split(" ");
+    let curr_pos = texts[0].length;
+    let content = texts[0];
+    let line = 0;
+    for (let i = 1; i < texts.length; i++) {
+      if (curr_pos + texts[i].length + 1 <= maxWidth) {
+        content += " " + texts[i];
+        curr_pos += texts[i].length + 1;
+      } else {
+        ctx.fillText(content, x, y + lineHeight * line);
+        line += 1;
+        content = texts[i];
+        curr_pos = texts[i].length;
+      }
+    }
+    if (content) ctx.fillText(content, x, y + lineHeight * line);
+  };
 
   return (
     <>
