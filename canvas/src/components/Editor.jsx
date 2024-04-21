@@ -62,7 +62,7 @@ const Editor = () => {
             <div className="border h-0 w-80 ml-2"></div>
           </div>
           <div className="flex flex-col border rounded-xl w-4/5 my-2 p-2 px-4">
-            <p className="text-xs text-gray-400 ml-16">Ad Content</p>
+            <p className="text-xs text-gray-400">Ad Content</p>
             <input
               type="text"
               className="border-none focus:border-none focus:outline-none"
