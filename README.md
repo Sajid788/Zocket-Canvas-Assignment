@@ -22,3 +22,7 @@ Tailwind CSS: For styling the user interface.
 - Install dependencies using `npm install`.
 - Start the development server using `npm run start`.
 - Open the project in your web browser and run it on port 3000.
+
+  ## Dashboard
+  ![Screenshot 2024-04-22 115543](https://github.com/Sajid788/Zocket-Canvas-Assignment/assets/129252454/1cf49b5c-9a33-467d-a455-629bee5db7dd)
+
