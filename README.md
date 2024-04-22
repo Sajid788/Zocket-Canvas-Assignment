@@ -17,8 +17,8 @@ React: For managing the UI components and state.
 Tailwind CSS: For styling the user interface.
 
 ## Usage
-Clone the repository to your local machine.
-Navigate to the project directory.
-Install dependencies using `npm install`.
-Start the development server using `npm run start`.
-Open the project in your web browser and run it on port 3000.
+- Clone the repository to your local machine.
+- Navigate to the project directory.
+- Install dependencies using `npm install`.
+- Start the development server using `npm run start`.
+- Open the project in your web browser and run it on port 3000.
